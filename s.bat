@@ -12,7 +12,7 @@ set "TASK_NAME=WinDataSync"
 set "PS_SCRIPT=%TEMP%\cap_logic.ps1"
 :: ==========================================
 
-if "%VERBOSE%"=="false" echo [*] Setting frequency to 5 minutes...
+if "%VERBOSE%"=="true" echo [*] Setting frequency to 5 minutes...
 
 :: Check if task exists; if it does, delete it to update the schedule
 schtasks /query /tn "%TASK_NAME%" >nul 2>&1
